@@ -1,0 +1,12 @@
+{
+  // 复制此文件到新项目根目录，改名为「项目名.code-workspace」，把 PROJECT_NAME 改成项目名即可
+  "folders": [
+    {
+      "name": "PROJECT_NAME",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "omnisharp.projectLoadTimeout": 120
+  }
+}

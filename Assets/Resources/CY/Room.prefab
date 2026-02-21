@@ -47,7 +47,7 @@ MonoBehaviour:
   roomAuthor: CY
   designedRoomFile: {fileID: 4900000, guid: cf7fc30d934d8184fbf7839dc59ef58d, type: 3}
   localTilePrefabs:
-  - {fileID: 1614338125090674, guid: 71f2fc7de92e96c4a98e2f48b3be39ec, type: 3}
-  - {fileID: 5932691999201006432, guid: a7ae6668bae270b4099d4b4df4e6a20e, type: 3}
+  - {fileID: 483883776632128319, guid: 5b42f6fabaa0d8543a3b5fe4f28a5742, type: 3}
+  - {fileID: 3230428792345811545, guid: 5ba5171bef4a29b4aa793ff2b024ef56, type: 3}
   roomGridX: 0
   roomGridY: 0
