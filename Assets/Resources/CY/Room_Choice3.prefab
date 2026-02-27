@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8249267978831003284}
-  - component: {fileID: 362223742450435307}
+  - component: {fileID: -5058926465610062478}
   m_Layer: 0
-  m_Name: Room
+  m_Name: Room_Choice3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &362223742450435307
+--- !u!114 &-5058926465610062478
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,15 +41,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 301936063320772221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 294f5a475b8f7481a8f1bb007b2cacda, type: 3}
+  m_Script: {fileID: 11500000, guid: 45bdf03df2ec0e14595d5d2c08c02b11, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RandomChoiceRoom
-  roomAuthor: CY
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyAndGoodThingRoom
+  roomAuthor: CY #3
   designedRoomFile: {fileID: 0}
   localTilePrefabs: []
   roomGridX: 0
   roomGridY: 0
-  roomChoices:
-  - {fileID: 301936063320772221, guid: fd824e40f423144449e1ab2c8d4fe406, type: 3}
-  - {fileID: 301936063320772221, guid: f781c2aa0d887e946ad948b2a87d3f61, type: 3}
-  - {fileID: 301936063320772221, guid: 9d508beb1840c1b469be9edf1de3706d, type: 3}
+  treasurePrefab: {fileID: 1818043832211400, guid: a83210e6a34ab4991832690839ea3bfb,
+    type: 3}
+  enemy1Prefab: {fileID: 1861036450554344, guid: 0b78773b9a235406286bf7e2dedde388,
+    type: 3}
+  enemy2Prefab: {fileID: 1273737218209362, guid: f6d74b122170b4644be17baf43f29ac9,
+    type: 3}
+  enemy3Prefab: {fileID: 1781302445510578, guid: cfd6546f3904642f1bbaddf9fe7ced93,
+    type: 3}
+  borderWallProbability: 0.5
+  minEnemies: 4
+  maxEnemies: 6
