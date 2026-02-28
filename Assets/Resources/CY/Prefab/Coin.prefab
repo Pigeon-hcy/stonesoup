@@ -133,7 +133,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.15, y: 1.1}
+    oldSize: {x: 0.46, y: 0.44}
     newSize: {x: 0.6, y: 0.3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d28492e6fbc96c409ae8ea9207e651b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
-  tags: 1
+  tags: 17
   tileName: 
   health: 1
   deathEffect: {fileID: 1267897626114914, guid: a783d8491895847699704a8bc85c5466,
@@ -195,4 +195,4 @@ MonoBehaviour:
   searchEnemyRadius: 40
   bulletPrefabOnDeath: {fileID: 1838362062477336, guid: 5c4e89998a1ba414b923d44895d1a47e,
     type: 3}
-  bulletForceOnDeath: 4000
+  bulletForceOnDeath: 2000

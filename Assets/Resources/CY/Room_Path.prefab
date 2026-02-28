@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8249267978831003284}
-  - component: {fileID: 362223742450435307}
+  - component: {fileID: -6137900328404072959}
   m_Layer: 0
-  m_Name: Room
+  m_Name: Room_Path
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &362223742450435307
+--- !u!114 &-6137900328404072959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,16 +41,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 301936063320772221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 294f5a475b8f7481a8f1bb007b2cacda, type: 3}
+  m_Script: {fileID: 11500000, guid: fe1f5229d6be5c744b3d8d9b561e259e, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::RandomChoiceRoom
+  m_EditorClassIdentifier: Assembly-CSharp::Digger_Room
   roomAuthor: CY
   designedRoomFile: {fileID: 0}
   localTilePrefabs: []
   roomGridX: 0
   roomGridY: 0
-  roomChoices:
-  - {fileID: 301936063320772221, guid: e0241c5190460ca4ca2a41eafed345fc, type: 3}
-  - {fileID: 301936063320772221, guid: fd824e40f423144449e1ab2c8d4fe406, type: 3}
-  - {fileID: 301936063320772221, guid: f781c2aa0d887e946ad948b2a87d3f61, type: 3}
-  - {fileID: 301936063320772221, guid: 9d508beb1840c1b469be9edf1de3706d, type: 3}
+  ratWallPrefab: {fileID: 634429893145304172, guid: c9045867b4d5eee4c8f7da81bcb0076a,
+    type: 3}
+  cheesePrefab: {fileID: 5932691999201006432, guid: a7ae6668bae270b4099d4b4df4e6a20e,
+    type: 3}
