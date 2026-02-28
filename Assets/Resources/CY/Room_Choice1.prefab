@@ -50,5 +50,9 @@ MonoBehaviour:
   - {fileID: 483883776632128319, guid: 5b42f6fabaa0d8543a3b5fe4f28a5742, type: 3}
   - {fileID: 3230428792345811545, guid: 5ba5171bef4a29b4aa793ff2b024ef56, type: 3}
   - {fileID: 4337685453755616804, guid: dd0c96b07715e9047ac29e614efb818b, type: 3}
+  - {fileID: 5932691999201006432, guid: a7ae6668bae270b4099d4b4df4e6a20e, type: 3}
+  - {fileID: 634429893145304172, guid: c9045867b4d5eee4c8f7da81bcb0076a, type: 3}
+  - {fileID: 4413331856867436993, guid: 56bdb2b9d3098634f964902d86032a5e, type: 3}
+  - {fileID: 8464383320174011875, guid: 64be5ae0338c4a14996dafad4abcdff8, type: 3}
   roomGridX: 0
   roomGridY: 0
